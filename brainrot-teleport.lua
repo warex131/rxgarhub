@@ -3,7 +3,7 @@ local c=p.Character or p.CharacterAdded:Wait()
 local hrp=c:WaitForChild("HumanoidRootPart",5)
 print("rxgar hub loaded")
 local bp=p:WaitForChild("Backpack",5)
-local base=Vector3.new(0,5,0) -- OYUNDAKİ BASE KOORDİNATLARINI BURAYA YAZ
+local base=Vector3.new(50,10,100) -- OYUNDAKİ BASE KOORDİNATLARINI BURAYA YAZ
 if not c or not hrp or not bp then print("Hata: Karakter veya backpack yüklenmedi! rxgar hub")return end
 bp.ChildAdded:Connect(function(t)
     if t:IsA("Tool")then
